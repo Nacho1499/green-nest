@@ -1,0 +1,95 @@
+"use client";
+import React, { useState } from "react";
+import Link from "next/link";
+import { Inter } from "next/font/google";
+import Image from "next/image";
+
+const Navbar: React.FC = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
+  return (
+    <nav className=" backdrop-blur-lg text-[#1B264F] p-2 sticky top-0 z-50 ">
+      <div className="max-w-7xl mx-auto flex items-center justify-between py-3 px-4">
+        <Link href="/">
+          <Image
+            className="  object-contain rounded-full"
+            src="/logo.jpg"
+            height={50}
+            width={50}
+            alt="logo"
+          />
+        </Link>
+
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex items-center space-x-8 font-medium text-green-800">
+          <Link href="/" className="">
+            Home
+          </Link>
+          <Link href="#about" className="">
+            Shop
+          </Link>
+          <Link href="/contact" className="">
+            Plant care
+          </Link>
+          <Link href="#product" className="">
+            About
+          </Link>
+          <Link href="#product" className="">
+            Contact
+          </Link>
+        </div>
+
+        <div>
+          <button className="bg-green-800 text-white py-2 px-4 text-sm rounded-sm">
+            Shop Now
+          </button>
+        </div>
+
+        {/* Mobile Hamburger */}
+        <button
+          className="md:hidden text-[#1B264F] focus:outline-none"
+          onClick={toggleMenu}
+          aria-label="Toggle navigation menu"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-8 h-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+
+      {/* Mobile Dropdown */}
+      <div
+        className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${
+          isOpen ? "max-h-60 mt-2" : "max-h-0"
+        }`}
+      >
+        <div className="bg-[#1B264F]/70 backdrop-blur-md rounded p-4 space-y-4 font-medium text-white">
+          <Link href="/" onClick={toggleMenu} className="block ">
+            Home
+          </Link>
+          <Link href="/about" onClick={toggleMenu} className="block ">
+            About Us
+          </Link>
+          <Link href="/contact" onClick={toggleMenu} className="block">
+            Contact
+          </Link>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
