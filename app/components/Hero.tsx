@@ -1,4 +1,5 @@
 import React from "react";
+import { Play } from "lucide-react";
 
 function Hero() {
   return (
@@ -19,8 +20,16 @@ function Hero() {
           <h1 className="text-white text-5xl md:text-5xl font-bold leading-tight mb-6">
             Discover beautiful indoor plants for every corner of your home
           </h1>
-          <div>
-            <button className="bg-white py-2 px-4 font-bold text-sm  rounded-lg">Shop Now</button>
+          <div className="flex justify-center gap-20 mt-12">
+            <button className="bg-white px-4 font-bold text-sm  rounded-lg">
+              Shop Now
+            </button>
+            <div className="flex items-center bg-white/40 backdrop-blur py-1 rounded-lg px-4  gap-2">
+              <Play className="text-white" />
+              <p className="text-white">
+                Watch how green next <br /> works
+              </p>
+            </div>
           </div>
           <div className="grid grid-cols-1 max-w-4xl mx-auto gap-4 lg:grid-cols-4 mt-24">
             <div className="bg-white/40 backdrop-blur px-4 py-6 rounded-lg">
