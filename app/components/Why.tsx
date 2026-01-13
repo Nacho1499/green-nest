@@ -19,7 +19,7 @@ function Why() {
       </p>
 
       {/* Content */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 mb-8 max-w-6xl mx-auto gap-8 mt-20 items-center lg:p-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mb-8 max-w-6xl mx-auto gap-8 mt-20 m run lg:p-8">
         {/* Left features */}
         <div className="space-y-10">
           <div className="shadow-lg p-4 rounded-lg">
@@ -45,7 +45,7 @@ function Why() {
         </div>
 
         {/* Center image */}
-        <div className="flex justify-center">
+        <div className="hidden lg:flex justify-center">
           <Image
             src="/image2.png"
             alt="Indoor plants"
