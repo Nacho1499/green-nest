@@ -7,7 +7,7 @@ function Type() {
       style={{ backgroundImage: "url('/image3.jpg')" }}
     >
       {/* Dark Overlay */}
-      <div className="absolute inset-0" />
+      <div className="absolute inset-0 bg-black/50" />
 
       <div className=" relative z-10 grid grid-cols-1 p-4 max-w-5xl mx-auto lg:grid-cols-2 items-center gap-8">
         <div className="backdrop-blur py-8 px-8 rounded-xl border border-slate-100">
@@ -27,7 +27,7 @@ function Type() {
             dolore a accusantium tempore aspernatur. Et labore quam nemo
             praesentium fuga!
           </p>
-          <button className="mt-4 rounded-full bg-white py-2 text-sm px-6 font-semibold text-green-800">
+          <button className="mt-4 rounded-full bg-white py-3 text-sm px-6 font-semibold text-green-800">
             Explore Now
           </button>
         </div>
@@ -43,14 +43,14 @@ function Type() {
             </h2>
 
             <h1 className="text-white font-bold text-2xl mb-4">
-              Low Maintainance Greens
+              Garden Ready Plants
             </h1>
             <p className="text-white  text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
               dolore a accusantium tempore aspernatur. Et labore quam nemo
               praesentium fuga!
             </p>
-            <button className="mt-4 rounded-full bg-white py-2 text-green-800 text-sm px-6 font-semibold">
+            <button className="mt-4 rounded-full bg-white py-3 text-green-800 text-sm px-6 font-semibold">
               Explore Now
             </button>
           </div>
