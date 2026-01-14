@@ -10,7 +10,7 @@ function Type() {
       <div className="absolute inset-0 bg-black/50" />
 
       <div className=" relative z-10 grid grid-cols-1 p-4 max-w-5xl mx-auto lg:grid-cols-2 items-center gap-8">
-        <div className="backdrop-blur py-8 px-8 rounded-xl border border-slate-100">
+        <div className="backdrop-blur py-8 px-8 rounded-xl hover:scale-105 transition duration-300 ease-in-out ">
           <h2
             className="mb-3 inline-flex items-center text-white text-xs font-medium 
                bg-slate-200/50 backdrop-blur-md 
@@ -27,13 +27,13 @@ function Type() {
             dolore a accusantium tempore aspernatur. Et labore quam nemo
             praesentium fuga!
           </p>
-          <button className="mt-4 rounded-full bg-white py-3 text-sm px-6 font-semibold text-green-800">
+          <button className="mt-4 rounded-full bg-white py-3 text-sm px-6 cursor-pointer font-semibold text-green-800">
             Explore Now
           </button>
         </div>
 
-        <div className="backdrop-blur py-8 px-8 rounded-xl border-slate-100 border">
-          <div className="flex-row justify-center items-center">
+        <div className="backdrop-blur py-8 px-8 rounded-xl  hover:scale-105 transition duration-300 ease-in-out ">
+          <div className="flex-row justify-center items-center ">
             <h2
               className="mb-3 inline-flex items-center text-white text-xs font-medium 
                bg-slate-200/50 backdrop-blur-md 
@@ -50,7 +50,7 @@ function Type() {
               dolore a accusantium tempore aspernatur. Et labore quam nemo
               praesentium fuga!
             </p>
-            <button className="mt-4 rounded-full bg-white py-3 text-green-800 text-sm px-6 font-semibold">
+            <button className="mt-4 rounded-full bg-white py-3 text-green-800 text-sm px-6 cursor-pointer font-semibold">
               Explore Now
             </button>
           </div>
