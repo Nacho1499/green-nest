@@ -16,8 +16,8 @@ const Navbar: React.FC = () => {
           <Image
             className="  object-contain rounded-full"
             src="/logo.jpg"
-            height={50}
-            width={50}
+            height={30}
+            width={30}
             alt="logo"
           />
         </Link>

@@ -67,7 +67,7 @@ function Why() {
           </div>
 
           <div className="shadow-lg p-4 rounded-lg">
-            <BadgeCheck size={25} className="text-green-800 mb-3" />
+            <BadgeCheck size={25} className="text-green-800 mb-3 animate-spin" />
             <h3 className="font-semibold text-lg text-green-900 mb-2">
               Sustainable & Eco-Friendly
             </h3>
