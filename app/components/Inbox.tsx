@@ -21,7 +21,7 @@ function Inbox() {
           <input
             placeholder="Enter your email..."
             type="text"
-            className="bg-white text-sm px-2 border border-green-800 mt-6 py-2 rounded-lg lg:w-80 "
+            className="bg-white w-40 text-sm px-2 border border-green-800 mt-6 py-2 rounded-lg lg:w-80 "
           />
           <button className=" ml-2 py-2 px-4 bg-green-800 text-white rounded-lg text-sm cursor-pointer
            hover:bg-green-700 transition ease-in-out duration-300">
