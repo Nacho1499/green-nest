@@ -12,14 +12,15 @@ const Navbar: React.FC = () => {
   return (
     <nav className=" backdrop-blur-lg text-[#1B264F] p-2 sticky top-0 z-50 ">
       <div className="max-w-7xl mx-auto flex items-center justify-between py-3 px-4">
-        <Link href="/">
+        <Link href="/" className="flex items-center gap-2">
           <Image
             className="  object-contain rounded-full"
-            src="/logo.jpg"
+            src="/favicon.jpg"
             height={30}
             width={30}
             alt="logo"
           />
+          <h3 className="font-bold text-green-800">GreenNest</h3>
         </Link>
 
         {/* Desktop Navigation */}

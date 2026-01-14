@@ -4,7 +4,7 @@ function Type() {
   return (
     <section
       className="flex justify-center items-center h-fit bg-cover bg-center relative py-20 mb-4 "
-      style={{ backgroundImage: "url('/plant7.jpg')" }}
+      style={{ backgroundImage: "url('/image3.jpg')" }}
     >
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50" />
