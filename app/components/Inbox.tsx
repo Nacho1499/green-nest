@@ -4,7 +4,7 @@ function Inbox() {
   return (
     <section
       className="flex justify-center items-center h-fit bg-cover bg-center relative py-20 mb-4  mt-24"
-      style={{ backgroundImage: "url('/image3.jpg')" }}
+      style={{ backgroundImage: "url('/index.jpg')" }}
     >
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50" />
