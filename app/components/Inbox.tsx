@@ -11,7 +11,7 @@ function Inbox() {
 
       <div className=" relative z-10 p-4 flex justify-center items-center text-center gap-8">
         <div className="backdrop-blur px-8 py-8 rounded-xl">
-          <h1 className="text-white font-bold text-2xl text-center lg:text-3xl ">
+          <h1 className="text-white font-bold sm:text-2xl text-center lg:text-3xl ">
             Get The Green in Your Inbox
           </h1>
           <p className="text-white text-center text-sm max-w-sm mt-4 ">
