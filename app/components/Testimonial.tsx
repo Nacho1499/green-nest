@@ -12,7 +12,7 @@ import {
 function Testimonial() {
   return (
     <div className=" px-13 mb-24 mt-24">
-      <h1 className="text-center mb-8 text-3xl font-bold text-gray-500 md:text-4xl   ">
+      <h1 className="text-center mb-8 text-2xl font-bold text-gray-500 md:text-4xl   ">
         Our Happy Customers Say it Best
       </h1>
       <div className="">
