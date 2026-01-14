@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import { plants } from "@/lib/plants";
-
+import { ArrowBigRight } from "lucide-react";
 function Plants() {
   return (
-    <section className="mt-24 px-6 mb-12">
+    <section className="mt-24 px-6 mb-12 text-center">
       {/* Heading */}
       <div className="mb-10 text-center">
         <h1 className="font-bold text-3xl md:text-4xl text-green-900 mb-3">
@@ -40,6 +40,13 @@ function Plants() {
           </div>
         ))}
       </div>
+      <button
+        className="font-bold text-green-800 text-sm mt-16 border inline-flex items-center gap-2 cursor-pointer
+       border-green-800 py-2 px-4 rounded-xl hover:scale-110 transition duration-300 ease-in-out"
+      >
+        <h1>Explore More</h1>
+        <ArrowBigRight size={20} />
+      </button>
     </section>
   );
 }
