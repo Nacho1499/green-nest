@@ -11,16 +11,16 @@ import {
 
 function Testimonial() {
   return (
-    <div className=" px-16 mb-24 mt-24">
+    <div className=" px-13 mb-24 mt-24">
       <h1 className="text-center mb-8 text-3xl font-bold text-gray-500 md:text-4xl   ">
         Our Happy Customers Say it Best
       </h1>
-      <div className=" flex justify-center">
+      <div className="">
         <Carousel
           opts={{
             align: "start",
           }}
-          className="w-full max-w-3xl"
+          className="w-full max-w-5xl lg:max-w-3xl mx-auto"
         >
           <CarouselContent>
             {Array.from({ length: 4 }).map((_, index) => (
