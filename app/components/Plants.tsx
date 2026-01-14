@@ -1,14 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-const plants = [
-  "/image2.png",
-  "/plant2.jpg",
-  "/plant3.jpg",
-  "/image2.png",
-  "/image2.png",
-  "/image2.png",
-];
+import { plants } from "@/lib/plants";
 
 function Plants() {
   return (
@@ -24,20 +16,27 @@ function Plants() {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-        {plants.map((img, index) => (
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        {plants.map((img, id) => (
           <div
-            key={index}
-            className="bg-slate-100 rounded-2xl p-5 flex items-center justify-center
-                       hover:shadow-lg transition-shadow duration-300"
+            key={id}
+            className="bg-slate-100 rounded-2xl p-5
+                       hover:shadow-lg duration-300 cursor-pointer"
           >
             <Image
-              src={img}
+              src={img.image}
               width={260}
-              height={200}
+              height={100}
               alt="Favourite plant"
-              className="object-contain"
+              className="object-contain  hover:scale-110 transition duration-400 ease-in-out"
             />
+            <h1 className="text-center  font-semibold text-md text-slate-600">
+              {img.name}
+            </h1>
+            <div className="flex items-center gap-2 text-sm mt-2 justify-center">
+              <p className="text-gray-500 line-through">₦{img.old}</p>
+              <p className="text-green-900 font-semibold">₦{img.new}</p>
+            </div>
           </div>
         ))}
       </div>
