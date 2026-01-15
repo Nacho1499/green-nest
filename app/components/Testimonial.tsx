@@ -13,9 +13,9 @@ import {
 
 function Testimonial() {
   return (
-    <div className=" p-14 mt-24 mb-24 lg:px-6 ">
+    <div className=" p-12 mt-24 mb-24 lg:px-6 ">
       <h1 className="text-center mb-10 text-2xl md:text-4xl font-bold text-gray-600">
-        Our Happy Customers Say It Best
+         “ Our Happy Customers Say It Best ”
       </h1>
 
       <Carousel opts={{ align: "start" }} className="w-full max-w-4xl mx-auto">

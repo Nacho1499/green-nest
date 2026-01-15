@@ -5,6 +5,7 @@ import Type from "./components/Type";
 import Plants from "./components/Plants";
 import Testimonial from "./components/Testimonial";
 import Inbox from "./components/Inbox";
+import Blog from "./components/Blog";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       <Plants/>
       <Inbox/>
       <Testimonial/>
+      <Blog/>
     </>
   );
 }
