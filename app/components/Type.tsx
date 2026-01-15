@@ -3,7 +3,7 @@ import React from "react";
 function Type() {
   return (
     <section
-      className="flex justify-center items-center h-fit bg-cover bg-center relative py-20 mb-4 "
+      className="flex justify-center items-center h-fit bg-cover bg-center relative py-20 mb-4 bg-fixed "
       style={{ backgroundImage: "url('/image3.jpg')" }}
     >
       {/* Dark Overlay */}

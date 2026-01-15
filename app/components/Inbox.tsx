@@ -3,7 +3,7 @@ import React from "react";
 function Inbox() {
   return (
     <section
-      className="flex justify-center items-center h-fit bg-cover bg-center relative py-20 mb-4  mt-24"
+      className="flex justify-center items-center h-fit bg-cover bg-center relative py-20 mb-4 bg-fixed  mt-24"
       style={{ backgroundImage: "url('/index.jpg')" }}
     >
       {/* Dark Overlay */}

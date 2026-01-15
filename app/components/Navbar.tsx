@@ -43,14 +43,14 @@ const Navbar: React.FC = () => {
         </div>
 
         <div>
-          <button className="bg-green-800 text-white py-2 px-4 text-sm rounded-sm">
+          <button className="bg-green-800 hidden text-white py-2 px-4 text-sm rounded-sm lg:block">
             Shop Now
           </button>
         </div>
 
         {/* Mobile Hamburger */}
         <button
-          className="md:hidden text-[#1B264F] focus:outline-none"
+          className="md:hidden text-green-800 focus:outline-none"
           onClick={toggleMenu}
           aria-label="Toggle navigation menu"
         >
@@ -77,14 +77,17 @@ const Navbar: React.FC = () => {
           isOpen ? "max-h-60 mt-2" : "max-h-0"
         }`}
       >
-        <div className="bg-[#1B264F]/70 backdrop-blur-md rounded p-4 space-y-4 font-medium text-white">
+        <div className="bg-green-800/70 backdrop-blur-md rounded p-4 space-y-4 font-medium text-white">
           <Link href="/" onClick={toggleMenu} className="block ">
             Home
           </Link>
           <Link href="/about" onClick={toggleMenu} className="block ">
-            About Us
+            Shop
           </Link>
           <Link href="/contact" onClick={toggleMenu} className="block">
+            Plant care
+          </Link>
+           <Link href="/contact" onClick={toggleMenu} className="block">
             Contact
           </Link>
         </div>

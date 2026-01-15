@@ -11,7 +11,7 @@ const stats = [
 function Hero() {
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center bg-cover bg-center text-center"
+      className="relative min-h-screen flex items-center justify-center bg-cover bg-center text-center bg-fixed"
       style={{ backgroundImage: "url('/hero-image.jpg')" }}
     >
       {/* Dark Overlay */}
