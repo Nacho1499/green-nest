@@ -13,7 +13,10 @@ function Blog() {
       </p>
       <div className="grid grid-cols-1 max-w-6xl mx-auto lg:grid-cols-4 md:grid-cols-3 gap-4 mt-14">
         {blogs.map((blog, id) => (
-          <div className="shadow-lg rounded-xl h-fit hover:scale-105 transition duration-300 ease-in-out" key={id}>
+          <div
+            className="shadow-lg rounded-xl h-fit hover:scale-105 transition duration-300 ease-in-out"
+            key={id}
+          >
             <Image
               className="w-full h-50 rounded-tl-xl rounded-tr-xl object-cover"
               src={blog.image}
@@ -33,6 +36,16 @@ function Blog() {
             </div>
           </div>
         ))}
+      </div>
+      <div className="text-center">
+
+      
+      <button
+        className="font-bold text-green-800 text-sm mt-16 border inline-flex items-center gap-2 cursor-pointer
+       border-green-800 py-2 px-4 rounded-xl hover:scale-110 transition duration-300 ease-in-out"
+      >
+        <h1>Explore More</h1>
+      </button>
       </div>
     </section>
   );

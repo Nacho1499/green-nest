@@ -23,9 +23,9 @@ function Type() {
             Low Maintainance Greens
           </h1>
           <p className="text-white text-sm ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            dolore a accusantium tempore aspernatur. Et labore quam nemo
-            praesentium fuga!
+            Elevate your interior with easy-care indoor plants. this beauties
+            purify the air, add a calming vibe, and grow happily in low to
+            medium light. perfect for office and home.
           </p>
           <button className="mt-4 rounded-full bg-white py-3 text-sm px-6 cursor-pointer font-semibold text-green-800">
             Explore Now
@@ -46,9 +46,9 @@ function Type() {
               Garden Ready Plants
             </h1>
             <p className="text-white  text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              dolore a accusantium tempore aspernatur. Et labore quam nemo
-              praesentium fuga!
+              Bring life to your outdoor space with vibrant , sun loving plants.
+              perfect for patios, balconies and home gardens- built to thrive in
+              natural light and fresh air.
             </p>
             <button className="mt-4 rounded-full bg-white py-3 text-green-800 text-sm px-6 cursor-pointer font-semibold">
               Explore Now

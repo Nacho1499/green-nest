@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { plants } from "@/lib/plants";
-import { ArrowBigRight } from "lucide-react";
+
 function Plants() {
   return (
     <section className="mt-24 px-6 mb-12 text-center">
@@ -45,7 +45,6 @@ function Plants() {
        border-green-800 py-2 px-4 rounded-xl hover:scale-110 transition duration-300 ease-in-out"
       >
         <h1>Explore More</h1>
-        <ArrowBigRight size={20} />
       </button>
     </section>
   );
