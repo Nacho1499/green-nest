@@ -18,7 +18,7 @@ function Testimonial() {
          “ Our Happy Customers Say It Best ”
       </h1>
 
-      <Carousel opts={{ align: "start" }} className="w-full max-w-4xl mx-auto">
+      <Carousel opts={{ align: "start" }} className="w-full max-w-6xl mx-auto">
         <CarouselContent>
           {reviews.map((review, id) => (
             <CarouselItem key={id} className="md:basis-1/2 lg:basis-1/3">

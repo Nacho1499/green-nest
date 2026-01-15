@@ -10,7 +10,7 @@ export const reviews: review[] = [
     id: "1",
     name: "John kadiri",
     testimonial:
-      "GreenNest made plant shopping so easy. My plants arrived fresh and instantly transformed my space.",
+      "GreenNest made plant shopping so easy. My plants arrived fresh and instantly transformed.",
     image: "/review2.jpg",
   },
   {
