@@ -23,8 +23,10 @@ function Testimonial() {
           {reviews.map((review, id) => (
             <CarouselItem key={id} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-2">
-                <Card className="border border-green-800/60 rounded-xl bg-white hover:scale-105
-                 transition duration-300 ease-in-out">
+                <Card
+                  className="border border-green-800/60 rounded-xl bg-white hover:scale-105
+                 transition duration-300 ease-in-out"
+                >
                   <CardContent className="p-6 ">
                     <p className="text-sm text-gray-700 leading-relaxed">
                       “{review.testimonial}”
