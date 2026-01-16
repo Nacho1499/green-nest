@@ -3,7 +3,7 @@ import Image from "next/image";
 import { blogs } from "@/lib/blog";
 function Blog() {
   return (
-    <section className="p-4 mt-24 mb-24">
+    <section className="p-4 mt-24">
       <h1 className="text-2xl md:text-4xl font-bold text-green-800 text-center">
         From The GreenNest Blog
       </h1>
@@ -41,7 +41,7 @@ function Blog() {
 
       
       <button
-        className="font-bold text-green-800 text-sm mt-16 border inline-flex items-center gap-2 cursor-pointer
+        className="font-bold text-green-800 text-sm mt-12 mb-12 border inline-flex items-center gap-2 cursor-pointer
        border-green-800 py-2 px-4 rounded-xl hover:scale-110 transition duration-300 ease-in-out"
       >
         <h1>Explore More</h1>
