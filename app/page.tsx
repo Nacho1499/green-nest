@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <div className="relative">
       <div
-        className=" rounded-full bg-green-800/75 text-center py-2 px-2 cursor-pointer  fixed 
-       right-2 lg:right-16 bottom-105  hover:scale-110 transition duration-300 ease-in-out"
+        className=" rounded-full bg-green-800/75 text-center py-2 px-2 cursor-pointer z-10  fixed 
+       right-2 lg:right-16 bottom-8  hover:scale-110 transition duration-300 ease-in-out"
       >
         <MessageCircleMore size={30} className="text-white" />
       </div>
